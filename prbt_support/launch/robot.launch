@@ -5,7 +5,7 @@
   <arg name="gripper" default="" />
 
   <!-- Enable safety interface -->
-  <arg name="iso10218_support" default="true" />
+  <arg name="iso10218_support" default="false" />
 
   <!-- Configure modbus settings depending on the configured safety hardware -->
   <!-- These arguments have no effect if iso10218_support is false -->

@@ -20,4 +20,13 @@
     <xacro:include filename="$(find prbt_${gripper}_support)/config/${gripper}.srdf.xacro" />
   </xacro:unless>
   
+  <group_state name="ready" group="manipulator">
+    <joint name="prbt_joint_1" value="1.5245" />
+    <joint name="prbt_joint_2" value="-0.26" />
+    <joint name="prbt_joint_3" value="1.26" />
+    <joint name="prbt_joint_4" value="1.60" />
+    <joint name="prbt_joint_5" value="0" />
+    <joint name="prbt_joint_6" value="0" />
+  </group_state>
+  
 </robot>
